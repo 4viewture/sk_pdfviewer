@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+<T3DataStructure>
+  <meta>
+    <langDisable>1</langDisable>
+  </meta>
+  <sheets>
+  <sPARAMS>
+  <ROOT>
+    <TCEforms>
+	<sheetTitle>LLL:EXT:sk_pdfviewer/pi1/locallang.php:viewerParams</sheetTitle>
+	</TCEforms>
+    <type>array</type>
+    <el>
+	
+    <pdf_file>
+		<TCEforms>
+			<label>LLL:EXT:sk_pdfviewer/pi1/locallang.php:pdf_file</label>
+			<config>
+				<type>group</type>
+				<internal_type>file</internal_type>
+				<allowed>pdf</allowed>
+				<max_size>10000000</max_size>
+				<uploadfolder>uploads/tx_skpdfviewer</uploadfolder>
+				<maxitems>1</maxitems>
+				<size>1</size>
+				<selectedListStyle>Width:180px</selectedListStyle>
+			</config>
+		</TCEforms>
+	</pdf_file>
+    
+    <title>	
+		  	<TCEforms>
+				<label>LLL:EXT:sk_pdfviewer/pi1/locallang.php:title</label>
+				<config>
+					<type>input</type>
+					<size>30</size>
+					<max>30</max>
+					<eval>trim</eval>
+				</config>
+			</TCEforms>
+	 </title>  
+     
+    <format>
+		<TCEforms>
+			<label>LLL:EXT:sk_pdfviewer/pi1/locallang.php:file_format</label>
+			<config>
+				<type>select</type>
+				<items>
+					<numIndex index="0">
+					    <numIndex index="0">gif</numIndex>
+					    <numIndex index="1">gif</numIndex>
+					</numIndex>
+					<numIndex index="1">
+					    <numIndex index="0">jpg</numIndex>
+					    <numIndex index="1">jpg</numIndex>
+					</numIndex>
+					<numIndex index="2">
+					    <numIndex index="0">png</numIndex>
+					    <numIndex index="1">png</numIndex>
+					</numIndex>
+				
+				</items>
+			</config>
+		</TCEforms>
+	</format>
+   
+		  
+   <width>
+		  	<TCEforms>
+				<label>LLL:EXT:sk_pdfviewer/pi1/locallang.php:width</label>
+				<config>
+					<type>input</type>
+					<size>3</size>
+					<max>3</max>
+					<eval>trim</eval>
+				</config>
+			</TCEforms>
+		  </width>
+		  
+   <height>
+		  	<TCEforms>
+				<label>LLL:EXT:sk_pdfviewer/pi1/locallang.php:height</label>
+				<config>
+					<type>input</type>
+					<size>3</size>
+					<max>3</max>
+					<eval>trim</eval>
+				</config>
+			</TCEforms>
+	</height>
+	
+	 <pages>
+		  	<TCEforms>
+				<label>LLL:EXT:sk_pdfviewer/pi1/locallang.php:pages</label>
+				<config>
+					<type>input</type>
+					<size>3</size>
+					<max>3</max>
+					<eval>trim</eval>
+				</config>
+			</TCEforms>
+	 </pages>
+	 <startpage>	
+		  	<TCEforms>
+				<label>LLL:EXT:sk_pdfviewer/pi1/locallang.php:startpage</label>
+				<config>
+					<type>input</type>
+					<size>3</size>
+					<max>3</max>
+					<eval>trim</eval>
+				</config>
+			</TCEforms>
+	 </startpage>  
+	 <endpage>	
+		  	<TCEforms>
+				<label>LLL:EXT:sk_pdfviewer/pi1/locallang.php:endpage</label>
+				<config>
+					<type>input</type>
+					<size>3</size>
+					<max>3</max>
+					<eval>trim</eval>
+				</config>
+			</TCEforms>
+	 </endpage>  
+     
+     <titletag>	
+		  	<TCEforms>
+				<label>LLL:EXT:sk_pdfviewer/pi1/locallang.php:titletag</label>
+				<config>
+					<type>input</type>
+					<size>30</size>
+					<max>30</max>
+					<eval>trim</eval>
+				</config>
+			</TCEforms>
+	 </titletag>  
+     <alttag>	
+		  	<TCEforms>
+				<label>LLL:EXT:sk_pdfviewer/pi1/locallang.php:alttag</label>
+				<config>
+					<type>input</type>
+					<size>30</size>
+					<max>30</max>
+					<eval>trim</eval>
+				</config>
+			</TCEforms>
+	 </alttag>  
+     <addparams>	
+		  	<TCEforms>
+				<label>LLL:EXT:sk_pdfviewer/pi1/locallang.php:addparams</label>
+				<config>
+					<type>input</type>
+					<size>50</size>
+					<max>50</max>
+					<eval>trim</eval>
+				</config>
+			</TCEforms>
+	 </addparams>  
+     
+     <IMparams>	
+		  	<TCEforms>
+				<label>LLL:EXT:sk_pdfviewer/pi1/locallang.php:IMparams</label>
+				<config>
+					<type>input</type>
+					<size>50</size>
+					<max>80</max>
+					<eval>trim</eval>
+				</config>
+			</TCEforms>
+	 </IMparams>  
+      <link>
+           <TCEforms>
+				<label>LLL:EXT:sk_pdfviewer/pi1/locallang.php:link</label>
+				<config>
+					<type>input</type>
+					<size>50</size>
+					<max>120</max>
+					<eval>trim</eval>
+				</config>
+			</TCEforms>
+      </link>
+      <link2doc>
+		  	<TCEforms>
+				<label>LLL:EXT:sk_pdfviewer/pi1/locallang.php:link2doc</label>
+				<config>
+					<type>check</type>
+				</config>
+			</TCEforms>
+		</link2doc>
+	 </el>
+  </ROOT>
+  </sPARAMS>
+  
+  
+  </sheets>
+</T3DataStructure>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_skpdfviewer_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="viewerParams">PDF Viewer Parameter</label>
+			<label index="pdf_file">PDF file</label>
+			<label index="file_format">file format</label>  
+            <label index="title">title</label>
+			<label index="width">width</label>
+			<label index="height">height</label>
+            <label index="pages">pages</label>
+			<label index="startpage">start with page</label>
+			<label index="endpage">end with page</label>
+			<label index="titletag">title tag of image</label>
+			<label index="alttag">alt tag of image</label>
+			<label index="addparams">additional picture parameter</label>
+			<label index="IMparams">IM Parameter</label>
+			<label index="link">link</label>
+			<label index="page">Page</label>
+            <label index="of">of</label>
+			<label index="link2doc">Link to document</label>
+			
+		</languageKey>
+        <languageKey index="de" type="array">
+			<label index="viewerParams">PDF Viewer Parameter</label>
+			<label index="pdf_file">PDF file</label>
+			<label index="file_format">Dateiformat</label>  
+            <label index="title">Titel</label>
+			<label index="width">Breite</label>
+			<label index="height">Höhe</label>
+            <label index="pages">Seiten</label>
+			<label index="startpage">Starte mit Seite</label>
+			<label index="endpage">Ende mit Seite</label>
+			<label index="titletag">Titletag des Bildes</label>
+			<label index="alttag">Alttag des Bildes</label>
+			<label index="addparams">zusätzliche Bildparameter</label>
+			<label index="IMparams">IM Parameter</label>
+			<label index="link">Link</label>
+			<label index="page">Seite</label>
+			<label index="of">von</label>
+			<label index="link2doc">Link zum Dokument</label>  
+            
+		</languageKey>
+	</data>
+</T3locallang>

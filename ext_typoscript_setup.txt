@@ -1,0 +1,21 @@
+plugin.tx_skpdfviewer_pi1 {
+	templateFile = EXT:sk_pdfviewer/res/template.html
+	
+	_CSS_DEFAULT_STYLE (
+	
+	.tx-skpdfviewer-pi1 .pdf {background:#eee;border:2px solid #aaa;}
+	.tx-skpdfviewer-pi1 .pdf-header {float:left;width:59%;text-align:left;padding:2px 6px;}
+	.tx-skpdfviewer-pi1 .pdf-browser {float:right;width:36%;text-align:right;}
+	.tx-skpdfviewer-pi1 .pdf-browser form {margin:0 !important;padding:0 !important;}
+	.tx-skpdfviewer-pi1 .pdf-browser form input {margin:0;font-size:84%;}
+	.tx-skpdfviewer-pi1 .pdf-browser form input.page {width:24px;text-align:center;}
+	.tx-skpdfviewer-pi1 img {margin:0;padding:0;}
+	.tx-skpdfviewer-pi1 span.title {font-size:110%;font-weight:bold;padding-right:12px;}
+	.tx-skpdfviewer-pi1 span.pagelabel {font-size:85%;font-weight:bold;font-style:italic;}
+	.tx-skpdfviewer-pi1 span.page {font-size:85%;font-weight:bold;font-style:italic;}
+	.tx-skpdfviewer-pi1 span.pageslabel {font-size:85%;font-weight:bold;font-style:italic;}
+	.tx-skpdfviewer-pi1 span.pages {font-size:85%;font-weight:bold;font-style:italic;}
+
+
+	)
+}
